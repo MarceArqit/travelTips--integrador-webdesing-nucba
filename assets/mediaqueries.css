@@ -190,7 +190,7 @@
 }
 
 /* Estas son las queries para el register */
-@media (max-width: 844px) {
+@media (max-width: 667px) {
   .logo {
     width: 50%;
     height: 50%;
@@ -205,7 +205,7 @@
   }
 }
 /* Estas son las queries para el login */
-@media (max-width: 844px) {
+@media (max-width: 667px) {
   .generalInfo {
     flex-direction: column;
     
