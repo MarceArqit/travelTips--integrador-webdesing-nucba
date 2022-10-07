@@ -371,11 +371,15 @@ header {
 .info-let a {
   text-decoration: none;
   background: cyan;
-  padding: 10px 20px 10px 20px;
+  padding: 5px;
   border-radius: 20px;
   color: black;
   font-weight: 500;
-  width: 18%;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  font-weight: 500;
+  
 }
 .info-let a:hover {
   box-shadow: 1px 1px 30px -5px #20202070;
@@ -390,54 +394,62 @@ header {
   width: 50%;
 }
 
+#accompany{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#accompany h1{
+  font-size: 18px;
+}
+.accompany__cards{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
 #subscribe {
   display: flex;
-
-  gap: 10px;
-  padding: 50px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 #subscribe h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-.sub__info {
-  border-radius: 10px;
-}
-.sub__info {
-  list-style: none;
-  text-decoration: none;
-  border: none;
-  border-radius: 20px;
-
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-}
-.sub__info:hover {
-  box-shadow: 1px 1px 10px 1px grey;
-}
-.input {
-  width: 500px;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.btn-sub {
-  border-radius: 10px;
-  background: #330867;
-  padding: 10px 20px;
-  border: none;
-  color: white;
   
 }
 
-.btn-sub:hover{
-  background: #ff0000;
+.sub__info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
  
+}
+.input-sub {
+width: 500px;
+border-radius: 20px;
+border: 1px solid rgb(222, 222, 226);
+padding: 10px;
+
+}
+
+.btn-sub a {
+  border-radius: 20px;
+  background: #330867;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn-sub a:hover {
+  background: #ff0000;
 }
 
 footer {
@@ -484,24 +496,23 @@ footer {
 }
 
 .copyright {
-  max-width: 1200px;
-  margin: auto;
+ 
   text-align: center;
   padding: 0px 40px;
+  margin-top: 10px;
 }
 
 .copyright p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+ font-size: 14px;
   color: #7a7a7a;
+  margin: 5;
+
 }
 
 .copyright hr {
   border: none;
   height: 1px;
   background-color: #7a7a7a;
-  width: 1200px;
+
 }
 
-@media (max-width: 500px) {
-}

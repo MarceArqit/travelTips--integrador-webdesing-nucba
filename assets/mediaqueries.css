@@ -1,6 +1,14 @@
+/* Esto es el queries para el header  */
+@media (max-width: 667px) {
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+}
+
 /* Esto es el queries para el navbar  */
 
-@media (max-width: 576px) {
+@media (max-width: 667px) {
   .navbar_option ul {
     background: white;
     width: 50%;
@@ -16,6 +24,7 @@
   }
   .navbar_option i {
     display: block;
+    font-size: 25px;
   }
 
   #toggle-menu:checked + .navbar {
@@ -28,11 +37,12 @@
 }
 /* Estas son las queries para el hero  */
 
-@media (max-width: 992px) {
+@media (max-width: 844px) {
   .hero__presentation {
     text-align: center;
     width: 90%;
     align-items: center;
+    gap: 30;
   }
   .hero__presentation h1 {
     font-size: 50px;
@@ -64,76 +74,97 @@
     font-size: 20px;
   }
 
-  #about a {
-    width: 70%;
+  .btn {
+    width: 100%;
     padding: 5px;
+    font-weight: 600;
   }
 
   .text-rigth {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    width: 75%;
     text-align: center;
-    margin-left: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
   }
 
   .text-rigth h1 {
-   font-size:40px;
+    font-size: 45px;
   }
-  
 
-  #offer{
+  .text-rigth p {
+    font-size: 16px;
+  }
+  .btn-app {
+    padding: 5px 10px 5px 10px;
+  }
+
+  #offer {
     align-items: center;
     justify-content: center;
     text-align: center;
-   
   }
 
-#offer h2{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding:0px;
+  #offer h2 {
+    margin-right: 80px;
+  }
 
-}
-
-.container__card{
-  gap: 50px;
-}
+  .container__card {
+    gap: 50px;
+  }
   #app-next img {
     display: none;
   }
 
-  #bepart{
+  #bepart {
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
   }
 
-  .info-let{
+  .info-let {
     align-items: center;
-    
   }
-  .info-let a{
-    width: 30%;
+  .info-let a {
+    width: 50%;
   }
-  .info-let p{
+  .info-let p {
     font-size: 18px;
   }
 
-  .img-rigth{
+  .img-rigth {
     display: none;
   }
-.sub__info input{
-  width:70%;
-}
 
+  #subscribe {
+    margin-top: 40px;
+  }
+  #subscribe h2{
+    font-size: 22px;
+  }
+  .sub__info input {
+    flex-direction: column;
+    width: 250px;
+  }
+ 
+
+  #accompany {
+   
+  }
+  #accompany h1 {
+    font-size: 18px;
+    text-align: center;
+ margin: 5px;
+  }
+  .accompany__cards img {
+    width: 60%;
+  }
 }
 
 /* Estas son las queries para el footer  */
 
-@media (max-width: 992px) {
+@media (max-width: 844px) {
   .footer__info {
     flex-direction: column;
     gap: 20px;
@@ -145,7 +176,47 @@
     align-items: center;
     justify-content: center;
   }
+
+  .copyright p {
+    font-size: 12px;
+  }
   .copyright hr {
     width: 100%;
+  }
+  .copyright b {
+    color: black;
+    font-weight: 500;
+  }
+}
+
+/* Estas son las queries para el register */
+@media (max-width: 844px) {
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+
+  .register__container {
+    display: none;
+  }
+
+  .container__register {
+    width: 80%;
+  }
+}
+/* Estas son las queries para el login */
+@media (max-width: 844px) {
+  .generalInfo {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imag h3 {
+    font-size: 20px;
+  }
+  .imag h3 span {
+    font-size: 18px;
+  }
+  .imag img {
+    width: 20%;
   }
 }

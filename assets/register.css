@@ -11,30 +11,30 @@ header {
   display: flex;
   width: 100%;
   align-items: center;
-  margin-top: 0;
+  justify-content: center;
 }
 
 .logo {
-  height: 200px;
-  margin-left: 50px;
+  height: 180px;
 }
 
 .register {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 50px;
+  justify-content: center;
+  align-items: ce;
+  gap: 50px;
+ 
 }
 
 .register__container {
   display: flex;
-  width: 50%;
   flex-direction: column;
+  align-items: center;
+ 
+  
 }
 .register__container h1 {
-  font-size: 70px;
+  font-size: 60px;
 }
 .register__container span {
   color: cyan;
@@ -42,12 +42,10 @@ header {
 .register__container a {
   background-color: magenta;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
   border-radius: 20px;
   padding: 8px;
-  width: 40%;
-  text-align: center;
   color: black;
 }
 
