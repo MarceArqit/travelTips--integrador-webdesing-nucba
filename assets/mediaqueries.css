@@ -1,0 +1,151 @@
+/* Esto es el queries para el navbar  */
+
+@media (max-width: 576px) {
+  .navbar_option ul {
+    background: white;
+    width: 50%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(200%);
+    gap: 10px;
+    padding-top: 10px;
+    transition: all 0.4s ease-out;
+  }
+  .navbar_option i {
+    display: block;
+  }
+
+  #toggle-menu:checked + .navbar {
+    transform: translateX(0);
+  }
+
+  .hero__presentation p {
+    max-width: 100%;
+  }
+}
+/* Estas son las queries para el hero  */
+
+@media (max-width: 992px) {
+  .hero__presentation {
+    text-align: center;
+    width: 90%;
+    align-items: center;
+  }
+  .hero__presentation h1 {
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .hero__presentation a {
+    margin-left: 50px;
+  }
+  .hero__presentation p {
+    max-width: 80%;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  #about {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #about p {
+    font-size: 18px;
+  }
+  #about p span {
+    color: cyan;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #about a {
+    width: 70%;
+    padding: 5px;
+  }
+
+  .text-rigth {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+  }
+
+  .text-rigth h1 {
+   font-size:40px;
+  }
+  
+
+  #offer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+  }
+
+#offer h2{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:0px;
+
+}
+
+.container__card{
+  gap: 50px;
+}
+  #app-next img {
+    display: none;
+  }
+
+  #bepart{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .info-let{
+    align-items: center;
+    
+  }
+  .info-let a{
+    width: 30%;
+  }
+  .info-let p{
+    font-size: 18px;
+  }
+
+  .img-rigth{
+    display: none;
+  }
+.sub__info input{
+  width:70%;
+}
+
+}
+
+/* Estas son las queries para el footer  */
+
+@media (max-width: 992px) {
+  .footer__info {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .copyright {
+    align-items: center;
+    justify-content: center;
+  }
+  .copyright hr {
+    width: 100%;
+  }
+}

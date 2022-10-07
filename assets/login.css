@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  height: 180px;
+  margin-left: 10px;
+}
+
+.generalInfo {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+}
+
+.generalInfo h3 {
+  font-size: 28px;
+}
+
+.generalInfo span {
+  font-size: 36px;
+  color: rgb(113, 194, 99);
+}
+.rigthInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+}
+
+.imag img {
+  width: 50%;
+}
+
+.imag p {
+  font-size: 24px;
+  width: 90%;
+  color: rgb(68, 92, 70);
+  font-weight: 800;
+  padding: 5px 10px 5px 10px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container__register {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.option {
+  display: flex;
+  gap: 10px;
+}
+.option a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 600;
+}
+.option a:first-child {
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+}
+.container__login__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login--info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login--info input {
+  border-radius: 10px;
+  border: 1px grey solid;
+  padding: 10px;
+}
+.login--btn input {
+  border-radius: 10px;
+  background-color:rgb(124, 177, 129);
+  border: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 5px 5px 7px;
+  color: white;
+}
+.login--btn input:hover {
+  box-shadow: 1px 1px 5px 5px gainsboro;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.socialmedia h3 {
+  font-size: 15px;
+}
+
+.login__socialplatforms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-brands {
+  color: black;
+  font-size: 30px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.copyright p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #7a7a7a;
+}
+
+.copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+  width: 1200px;
+}
+
+.all {
+  display: flex;
+  justify-content: space-around;
+}
+.publicidad {
+  display: flex;
+  align-items: flex-start;
+  padding: 50px;
+}
+.publicidad img {
+  width: 50%;
+  padding: 0;
+  margin: 0%;
+}
