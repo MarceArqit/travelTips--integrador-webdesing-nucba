@@ -208,6 +208,10 @@
 @media (max-width: 844px) {
   .generalInfo {
     flex-direction: column;
+    
+  }
+  .rigthInfo{
+    align-items: center;
     text-align: center;
   }
   .imag h3 {
@@ -218,5 +222,11 @@
   }
   .imag img {
     width: 20%;
+  }
+  .container__login__info{
+    gap: 10px;
+  }
+  .login--info{
+    gap: 30px;
   }
 }
