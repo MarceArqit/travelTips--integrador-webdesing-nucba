@@ -11,15 +11,15 @@
 @media (max-width: 667px) {
   .navbar_option ul {
     background: white;
-    width: 50%;
-    height: calc(100vh - 80px);
+    width: 100%;
+    height: 200px;
     position: absolute;
     right: 0;
     flex-direction: column;
     align-items: center;
     transform: translateX(200%);
     gap: 10px;
-    padding-top: 10px;
+    padding-top: 50px;
     transition: all 0.4s ease-out;
   }
   .navbar_option i {
@@ -30,73 +30,73 @@
   #toggle-menu:checked + .navbar {
     transform: translateX(0);
   }
-
-  .hero__presentation p {
-    max-width: 100%;
-  }
 }
 /* Estas son las queries para el hero  */
 
 @media (max-width: 844px) {
   .hero__presentation {
     text-align: center;
-    width: 90%;
+    width: 100%;
     align-items: center;
-    gap: 30;
+    gap: 10px;
   }
   .hero__presentation h1 {
     font-size: 50px;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
   }
-  .hero__presentation a {
-    margin-left: 50px;
-  }
+
   .hero__presentation p {
-    max-width: 80%;
     font-size: 20px;
-    margin-left: 50px;
   }
 
   #about {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
   }
 
   #about p {
     font-size: 18px;
   }
   #about p span {
-    color: cyan;
+    color: rgb(42, 231, 231);
     font-weight: 500;
     font-size: 20px;
   }
-
+ 
   .btn {
     width: 100%;
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
     font-weight: 600;
   }
 
-  .text-rigth {
-    width: 75%;
-    text-align: center;
-    justify-content: center;
+  .app-next{
     align-items: center;
-    margin-left: 50px;
+    justify-content: center;
+    text-align: center;
   }
-
+  .text-rigth {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+  }
+  #app-next img {
+    display: none;
+  }
+ 
   .text-rigth h1 {
     font-size: 45px;
   }
 
   .text-rigth p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .btn-app {
-    padding: 5px 10px 5px 10px;
+    padding: 5px 15px 5px 15px;
   }
 
   #offer {
@@ -105,15 +105,10 @@
     text-align: center;
   }
 
-  #offer h2 {
-    margin-right: 80px;
-  }
+ 
 
   .container__card {
     gap: 50px;
-  }
-  #app-next img {
-    display: none;
   }
 
   #bepart {
@@ -127,10 +122,12 @@
     align-items: center;
   }
   .info-let a {
-    width: 50%;
+    width: 100%;
+    padding: auto;
   }
   .info-let p {
     font-size: 18px;
+    font-weight: 500;
   }
 
   .img-rigth {
@@ -140,22 +137,23 @@
   #subscribe {
     margin-top: 40px;
   }
-  #subscribe h2{
+  #subscribe h2 {
     font-size: 22px;
   }
   .sub__info input {
     flex-direction: column;
     width: 250px;
   }
- 
 
   #accompany {
-   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   #accompany h1 {
     font-size: 18px;
     text-align: center;
- margin: 5px;
+    
   }
   .accompany__cards img {
     width: 60%;
@@ -181,7 +179,7 @@
     font-size: 12px;
   }
   .copyright hr {
-    width: 100%;
+    width: 50%;
   }
   .copyright b {
     color: black;
@@ -190,10 +188,10 @@
 }
 
 /* Estas son las queries para el register */
-@media (max-width: 667px) {
+@media (max-width: 844px) {
   .logo {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
   }
 
   .register__container {
@@ -205,12 +203,16 @@
   }
 }
 /* Estas son las queries para el login */
-@media (max-width: 667px) {
+@media (max-width: 844px) {
+  .logo {
+    width: 30%;
+    height: 30%;
+  }
   .generalInfo {
     flex-direction: column;
-    
+    align-items: center;
   }
-  .rigthInfo{
+  .rigthInfo {
     align-items: center;
     text-align: center;
   }
@@ -223,10 +225,10 @@
   .imag img {
     width: 20%;
   }
-  .container__login__info{
+  .container__login__info {
     gap: 10px;
   }
-  .login--info{
+  .login--info {
     gap: 30px;
   }
 }

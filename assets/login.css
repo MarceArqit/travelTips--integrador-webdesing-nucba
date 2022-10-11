@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
 }
+
 
 header {
   display: flex;
@@ -18,9 +21,16 @@ header {
   height: 180px;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .generalInfo {
   display: flex;
   justify-content: center;
+  max-width: 1200px;
   gap: 50px;
 }
 
@@ -34,7 +44,8 @@ header {
 }
 .rigthInfo {
   display: flex;
-  justify-content: space-between;
+ justify-content: center;
+ align-items: center;
 }
 
 .imag {
@@ -86,6 +97,11 @@ align-items: center;
   border-radius: 10px;
   color: black;
 }
+
+.login{
+  display: flex;
+  justify-content: space-between;
+}
 .container__login__info {
   display: flex;
   flex-direction: column;
@@ -135,7 +151,7 @@ align-items: center;
 
 .fa-brands {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   margin: 5px;
   margin-bottom: 20px;
 }
